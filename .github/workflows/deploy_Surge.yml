@@ -32,4 +32,4 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge 
-        run: surge ./ project1.fsk.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./ project1-fsk.surge.sh --token ${{secrets.SURGE_TOKEN}}
